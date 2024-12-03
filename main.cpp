@@ -11,6 +11,8 @@ int main()
 '\'' ok;
 "\"\"" ok;
 
+ else if ( *(p+1) >= "0" and *(p+1) <= "9" )
+
 "sdfsfdsfs"s dfgdfgfdsdfs
 "sfsdfssf" "dsfodihfosfho'sdfdsfsfs
 r3 R"sdfsfsdfssds"
