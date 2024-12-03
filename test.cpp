@@ -8,16 +8,22 @@ int main()
 [](const auto&) &*|~ is good(); self= int
 []
  
-'\'' ok;
+'\'dfgdgfdgdf';
 "\"\"" ok;
 
  else if ( *(p+1) >= "0" and *(p+1) <= "9" )
 
-"sdfsfdsfs"s dfgdfgfdsdfs
+"sdfsfdsf\"s sdfsdf"s dfgdfgfdsdfs
 "sfsdfssf" "dsfodihfosfho'sdfdsfsfs
-r3 R"sdfsfsdfssds"
+r3 R"sdfsfsdfssds\"" sfsdfsdfs
+"\"" dfgfdg
 
-#define WINHTTP
+
+
+#define WINHTTP /* ok */
+#define WINHTTP // ok
+
+sdfssdf 
 vector3 3ffwfew vector23r23r32423432
 good();
 /* sdokvspdss

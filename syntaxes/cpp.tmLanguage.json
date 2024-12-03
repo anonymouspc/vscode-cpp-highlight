@@ -25,11 +25,19 @@
       "name": "cpp_highlight.red"
     },
     {
-      "match": "('((?!.*\\$).*?)')|(R?\"((?!.*\\$).*?)\"[a-zA-Z0-9]*)",
+      "match": "'([^\\\\]|\\\\.)*?'",
       "name": "cpp_highlight.orange"
     },
     {
-      "match": "('|(R?\")).*",
+      "match": "(u8|u|U|R)?\"([^\\\\]|\\\\.)*?\"[a-zA-Z0-9]*",
+      "name": "cpp_highlight.orange"
+    },
+    {
+      "match": "'.*",
+      "name": "cpp_highlight.orange"
+    },
+    {
+      "match": "(u8|u|U|R)?\".*",
       "name": "cpp_highlight.orange"
     },
     {
