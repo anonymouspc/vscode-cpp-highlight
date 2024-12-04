@@ -1,3 +1,11 @@
+cpu_context
+gpu_context
+io_context
+random_engine
+ssl_client_context
+ssl_server_context
+
+
 ASCII
 AdobeStandardEncoding
 Alignment
@@ -915,15 +923,6 @@ get_pointer_safety
 get_return_object
 get_scheduler
 get_temporary_buffer
-global_cpu_context
-global_function
-global_gpu_context
-global_http_user_agent
-global_io_context
-global_memory_debugger
-global_random_engine
-global_ssl_client_context
-global_ssl_server_context
 good
 goodbit
 grad

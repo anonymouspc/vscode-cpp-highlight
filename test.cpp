@@ -1,4 +1,4 @@
-#if define good()
+
 self.good)
 
 int main()
