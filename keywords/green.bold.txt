@@ -1,3 +1,6 @@
+forward_range
+range_reference_t
+join_with_view
 cpu_context
 gpu_context
 io_context
