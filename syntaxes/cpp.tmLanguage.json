@@ -61,7 +61,7 @@
       "name": "cpp_highlight.purple"
     },
     {
-      "match": "[a-zA-Z0-9]+",
+      "match": "[a-zA-Z0-9_]+",
       "name": "cpp_highlight.white"
     }
   ]
