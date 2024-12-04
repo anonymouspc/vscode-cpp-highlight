@@ -21,7 +21,7 @@ r3 R"sdfsfsdfssds\"" sfsdfsdfs
 
 
 #define WINHTTP /* ok */
-#define WINHTTP // ok
+#define WINHTTP/dfdgdf ///
 
 sdfssdf 
 vector3 3ffwfew vector23r23r32423432

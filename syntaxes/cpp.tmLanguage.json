@@ -12,7 +12,7 @@
   "scopeName": "source.cpp",
   "patterns": [
     {
-      "match": "(//.*)|(/\\*.*\\*/)",
+      "match": "//.*$",
       "name": "cpp_highlight.grey"
     },
     {
@@ -57,7 +57,7 @@
       "name": "cpp_highlight.blue.bold"
     },
     {
-      "match": "#.*",
+      "match": "#([^/]|/[^/\\*])*",
       "name": "cpp_highlight.purple"
     },
     {
