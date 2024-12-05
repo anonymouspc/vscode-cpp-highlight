@@ -3,6 +3,10 @@ range_reference_t
 range_value_t
 all_t
 single_view
+common_range
+bidirectional_range
+viewable_range
+input_types
 iterator_t
 join_with_view
 cpu_context
