@@ -1,3 +1,5 @@
+left_dimension
+right_dimension
 forward_range
 range_reference_t
 range_value_t

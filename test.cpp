@@ -7,7 +7,7 @@ int main()
 }++++--... ..
 [](const auto&) &*|~ is good(); self= int
 []
- 
+ input_types
 '\'dfgdgfdgdf';
 "\"\"" ok;
 
