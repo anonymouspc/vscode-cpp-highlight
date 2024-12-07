@@ -3,6 +3,7 @@ right_dimension
 vector_dimension
 matrix_dimension
 ndarray_dimension
+pipe_process
 forward_range
 range_reference_t
 range_value_t
