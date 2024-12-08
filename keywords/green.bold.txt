@@ -1,9 +1,7 @@
-left_dimension
-right_dimension
-vector_dimension
-matrix_dimension
-ndarray_dimension
 pipe_process
+vscode
+gcc
+clang
 forward_range
 range_reference_t
 range_value_t
