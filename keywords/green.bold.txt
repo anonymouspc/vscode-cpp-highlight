@@ -1,4 +1,5 @@
 pipe_process
+string_view_type
 vscode
 gcc
 clang
@@ -342,7 +343,6 @@ array_coordinate
 array_filter_view
 array_flatten_view
 array_line
-array_of_views
 array_range_view
 array_reshape_view
 array_span_view
