@@ -1,7 +1,5 @@
 pipe_process
 string_view_type
-vscode
-gcc
 clang
 forward_range
 range_reference_t
