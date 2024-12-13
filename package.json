@@ -1,28 +1,42 @@
 {
-  "name": "cpp_highlight",
-  "displayName": "C++ Highlight",
-  "description": "C++ highlight",
-  "version": "1.0.0",
-  "publisher": "anonymous",
-  "engines": {
-    "vscode": "^1.60.0"
-  },
-  "contributes": {
-    "languages": [
-      {
-        "id": "cpp",
-        "aliases": ["C++", "cpp"],
-        "extensions": [".cpp", ".hpp", ".ipp", ".cxx", ".hxx", "ixx", ".h"],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "cpp",
-        "scopeName": "source.cpp",
-        "path": "./syntaxes/cpp.tmLanguage.json"
-      }
-    ]
-  },
-  "main": "./extension.js"
+	"name": "cpp_highlight",
+	"displayName": "C++ Highlight",
+	"description": "C++ Highlight",
+	"version": "1.0.0",
+	"publisher": "anonymous",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "cpp",
+				"aliases": [
+					"C++",
+					"cpp"
+				],
+				"extensions": [
+					".cpp",
+					".hpp",
+					".ipp",
+					".cxx",
+					".hxx",
+					"ixx",
+					".h"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "cpp",
+				"scopeName": "source.cpp",
+				"path": "./syntaxes/cpp.tmLanguage.json"
+			}
+		]
+	},
+	"main": "./extension.js",
+	"__metadata": {
+		"size": 378069
+	}
 }
