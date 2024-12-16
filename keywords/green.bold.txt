@@ -3,6 +3,9 @@ gpu
 npu
 dsp
 fpga
+experimental
+device
+universal
 pipe_process
 string_view_type
 clang
