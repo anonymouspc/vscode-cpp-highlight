@@ -1,3 +1,8 @@
+cpu
+gpu
+npu
+dsp
+fpga
 pipe_process
 string_view_type
 clang
