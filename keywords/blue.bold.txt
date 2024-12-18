@@ -1,3 +1,7 @@
+__host__
+__device__
+__global__
+
 abstract
 alignas
 alignof
@@ -114,7 +118,6 @@ uint_least8_t
 uintmax_t
 uintptr_t
 union
-universal
 unsigned
 using
 virtual

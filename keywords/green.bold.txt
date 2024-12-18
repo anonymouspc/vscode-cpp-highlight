@@ -1,11 +1,11 @@
 cpu
-gpu
-npu
-dsp
-fpga
+tbb
+cuda
+hip
+mps
+device_type
 experimental
 device
-universal
 span
 mdspan
 extents
