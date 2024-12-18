@@ -3,6 +3,7 @@ tbb
 cuda
 hip
 mps
+alloc
 device_type
 experimental
 device
