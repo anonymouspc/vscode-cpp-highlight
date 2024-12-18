@@ -4,9 +4,12 @@ cuda
 hip
 mps
 alloc
+device
 device_type
 experimental
-device
+shift_left
+shift_right
+for_each_n
 span
 mdspan
 extents
