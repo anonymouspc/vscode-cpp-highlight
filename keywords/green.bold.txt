@@ -9,6 +9,10 @@ universal
 span
 mdspan
 extents
+dextents
+dims
+rank_dynamic
+static_extent
 layout_left
 layout_right
 layout_stride
