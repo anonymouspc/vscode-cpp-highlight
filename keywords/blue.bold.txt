@@ -114,6 +114,7 @@ uint_least8_t
 uintmax_t
 uintptr_t
 union
+universal
 unsigned
 using
 virtual
