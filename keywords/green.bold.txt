@@ -6,6 +6,12 @@ fpga
 experimental
 device
 universal
+span
+mdspan
+layout_left
+layout_right
+layout_stride
+default_accessor
 pipe_process
 string_view_type
 clang
