@@ -1,8 +1,9 @@
 cpu
-tbb
-cuda
-hip
-mps
+intel_tbb
+nvidia_cuda
+amd_hip
+apple_mps
+boost_compute
 alloc
 device
 device_type
