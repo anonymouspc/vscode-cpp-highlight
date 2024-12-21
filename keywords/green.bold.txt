@@ -11,6 +11,7 @@ shift_left
 shift_right
 array_view
 for_each_n
+unsigned_integral
 span
 mdspan
 extents
@@ -1553,7 +1554,6 @@ range_adaptor_closure
 range_error
 range_like
 range_tag
-range_type
 range_view_of
 ranges
 rank
