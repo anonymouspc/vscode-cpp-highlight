@@ -1,11 +1,12 @@
 available_parallelism
 forward_progress_guarantee
 enqueue
+command_queue
+system
 operation_state
 pool_type
 operation
-context_type
-execution_context
+execution_context_type
 cpu
 tbb
 cuda
@@ -18,7 +19,6 @@ common_comparison_category
 compare_strong_order_fallback
 compare_weak_order_fallback
 compare_partial_order_fallback
-context
 is_available
 alloc
 const_pointer
@@ -65,14 +65,9 @@ viewable_range
 input_types
 iterator_t
 join_with_view
-cpu_context
-cuda_context
-hip_context
-mps_context
-opencl_context
-tbb_context
-io_context
 random_engine
+execution_context
+io_context
 ssl_client_context
 ssl_server_context
 
