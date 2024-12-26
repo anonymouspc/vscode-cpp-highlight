@@ -58,7 +58,11 @@ input_types
 iterator_t
 join_with_view
 cpu_context
-gpu_context
+cuda_context
+hip_context
+mps_context
+opencl_context
+tbb_context
 io_context
 random_engine
 ssl_client_context
@@ -1192,7 +1196,6 @@ last_value_of
 launch
 layer_tag
 layer_type
-layout_type
 lazy_split
 lazy_split_view
 lcm
