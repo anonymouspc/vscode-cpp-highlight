@@ -1196,6 +1196,7 @@ last_value_of
 launch
 layer_tag
 layer_type
+layout
 lazy_split
 lazy_split_view
 lcm
