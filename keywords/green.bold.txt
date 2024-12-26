@@ -4,8 +4,16 @@ cuda
 hip
 mps
 opencl
+compare_three_way
+compare_three_way_result
+common_comparison_category
+compare_strong_order_fallback
+compare_weak_order_fallback
+compare_partial_order_fallback
+context
 is_available
 alloc
+const_pointer
 device
 device_type
 thrust
@@ -332,6 +340,7 @@ adjacent
 adjacent_difference
 adjacent_find
 adjacent_where
+addressof
 album
 album_artist
 algo
@@ -1118,7 +1127,6 @@ is_permutation
 is_placeholder
 is_pod
 is_pointer
-is_pointer_type
 is_polymorphic
 is_reference
 is_right
@@ -1148,7 +1156,6 @@ istream_iterator
 istream_view
 istreambuf_iterator
 iter_swap
-iterate_type
 iterator
 iterator_base
 iterator_category
