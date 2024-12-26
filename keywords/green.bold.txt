@@ -1,3 +1,4 @@
+context_type
 cpu
 tbb
 cuda
@@ -1196,7 +1197,7 @@ last_value_of
 launch
 layer_tag
 layer_type
-layout
+layout_type
 lazy_split
 lazy_split_view
 lcm
