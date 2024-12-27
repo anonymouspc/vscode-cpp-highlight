@@ -1,3 +1,5 @@
+random_context
+random_context_type
 available_parallelism
 forward_progress_guarantee
 enqueue
@@ -768,7 +770,6 @@ dim_to_fill
 dimension
 dir
 directory_entry
-discard_block
 discard_block_engine
 discnumber
 discrete_distribution
@@ -1231,7 +1232,6 @@ let_value
 lexicographical_compare
 lexicographical_compare_three_way
 light_grey
-linear_congruential
 linear_congruential_engine
 linear_layer
 link
@@ -1315,7 +1315,6 @@ mem_fun_t
 member_function_deduction
 memory_debugger
 merge
-mersenne_twister
 mersenne_twister_engine
 message
 message_type
@@ -1570,11 +1569,7 @@ random
 random_access_iterator
 random_access_iterator_tag
 random_device
-random_engine_algo
-random_engine_tag
-random_engine_type
 random_shuffle
-random_train
 range
 range_adaptor_closure
 range_error
@@ -1846,7 +1841,6 @@ sub_match
 subject_to
 subrange
 substr
-subtract_with_carry
 subtract_with_carry_01
 subtract_with_carry_engine
 sum
