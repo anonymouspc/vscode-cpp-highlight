@@ -4,6 +4,7 @@ enqueue
 command_queue
 system
 operation_state
+device_error
 pool_type
 operation
 execution_context_type
