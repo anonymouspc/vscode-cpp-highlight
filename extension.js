@@ -8,7 +8,7 @@ function activate(context) {
     for (let color of colors) {
         // Set file path.
         const keywordsPath = path.join(context.extensionPath, 'keywords', `${color}.txt`);
-        const syntaxPath  = path.join(context.extensionPath, 'syntaxes', 'cpp.tmLanguage.json');
+        const syntaxPath   = path.join(context.extensionPath, 'syntaxes', 'cpp.tmLanguage.json');
 
         // Read keywords file.
         let data          = fs.readFileSync(keywordsPath, 'utf8');

@@ -1,3 +1,4 @@
+get_command_queue
 plusable
 plusable_to
 plus_result
@@ -5,7 +6,7 @@ modulable
 modulable_to
 modulus_result
 bit_not
-unsigned_int_type 
+unsigned_int_type
 unsigned_int_tag
 random_context
 random_context_type
