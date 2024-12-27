@@ -9,7 +9,7 @@ bit_not
 unsigned_int_type
 unsigned_int_tag
 random_context
-random_context_type
+random_context_t
 hardware_concurrency
 available_parallelism
 forward_progress_guarantee
@@ -20,7 +20,7 @@ operation_state
 device_error
 pool_type
 operation
-execution_context_type
+execution_context_t
 cpu
 tbb
 cuda
