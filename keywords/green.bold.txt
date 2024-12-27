@@ -1,5 +1,15 @@
+plusable
+plusable_to
+plus_result
+modulable
+modulable_to
+modulus_result
+bit_not
+unsigned_int_type 
+unsigned_int_tag
 random_context
 random_context_type
+hardware_concurrency
 available_parallelism
 forward_progress_guarantee
 enqueue
@@ -341,11 +351,8 @@ add_cv
 add_lvalue_reference
 add_pointer
 add_reference
-add_result
 add_rvalue_reference
 add_volatile
-addable
-addable_to
 adjacent
 adjacent_difference
 adjacent_find
@@ -1994,7 +2001,6 @@ unordered_multimap
 unordered_multiset
 unordered_set
 unseq
-unsigned_type
 up
 update
 upon_error
