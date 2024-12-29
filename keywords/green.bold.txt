@@ -1,4 +1,6 @@
 get_command_queue
+shrink_to_fit
+discard
 plusable
 plusable_to
 plus_result
@@ -79,7 +81,6 @@ viewable_range
 input_types
 iterator_t
 join_with_view
-random_engine
 execution_context
 io_context
 ssl_client_context
