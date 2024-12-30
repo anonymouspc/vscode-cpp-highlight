@@ -1,5 +1,12 @@
+input_range
+output_range
+forward_range
+bidirectional_range
+random_access_range
+contiguous_range
 is_assignable
 is_bounded_array
+base_of
 is_empty
 is_final
 is_null_pointer
@@ -1118,7 +1125,6 @@ is_alpha
 is_arithmetic
 is_array
 is_ascii
-is_base_of
 is_bind_expression
 is_class
 is_compound
