@@ -1,6 +1,11 @@
 __host__
 __device__
 __global__
+__shared__
+
+__kernel
+__global
+__constant
 
 abstract
 alignas

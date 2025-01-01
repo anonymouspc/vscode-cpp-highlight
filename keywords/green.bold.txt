@@ -1,3 +1,13 @@
+char_type
+int_type
+unsigned_int_type
+float_type
+number_type
+complex_type
+complex_int_type
+complex_float_type
+transform_exclusive_scan
+transform_inclusive_scan
 input_range
 output_range
 forward_range
@@ -38,8 +48,6 @@ modulable
 modulable_to
 modulus_result
 bit_not
-unsigned_int_type
-unsigned_int_tag
 random_context
 random_context_t
 hardware_concurrency
@@ -85,7 +93,6 @@ experimental
 shift_left
 shift_right
 for_each_n
-unsigned_integral
 span
 mdspan
 extents
@@ -603,11 +610,7 @@ cend
 center
 cerr
 channel
-char_tag
 char_traits
-char_type
-char_type1
-char_type2
 check
 checked_array_iterator
 checked_uninitialized_copy
@@ -663,10 +666,6 @@ compare_type
 compares
 completion_signatures
 complex
-complex_float_type
-complex_int_type
-complex_tag
-complex_type
 compose
 composer
 condition
@@ -941,10 +940,6 @@ flat_map
 flat_set
 float_denorm_style
 float_round_style
-float_tag
-float_to_float_type
-float_type
-floating_point
 floating_point_engine
 floating_point_exception_signal
 floor
@@ -1097,11 +1092,7 @@ input_value_type
 inputable
 insert
 insert_iterator
-int_tag
-int_to_float_type
-int_type
 integer_sequence
-integral
 integral_constant
 interrupt_signal
 interval_estimation
@@ -1231,7 +1222,6 @@ learning_rate
 left
 left_compare_type
 left_dimension
-left_int_to_float_type
 left_iterate_type
 left_justify
 left_key_compare_type
@@ -1310,7 +1300,6 @@ match_results
 math_error
 math_type
 matrix
-matrix_int_to_float_type
 matrix_iterate_type
 matrix_type
 matrix_value_type
@@ -1445,8 +1434,6 @@ num2
 num_get
 num_put
 number
-number_tag
-number_type
 numbers
 numeric_expr
 numeric_limits
@@ -1529,7 +1516,6 @@ pointer_to_binary_function
 pointer_to_unary_function
 poisson_distribution
 polar
-polar_float_type
 polar_tag
 polar_type
 pop
@@ -1550,8 +1536,6 @@ predicate
 prev
 prev_permutation
 print
-print_tree
-print_type
 printable
 println
 priority_queue
@@ -1703,7 +1687,6 @@ right_adjacent_find
 right_compare_type
 right_dimension
 right_find
-right_int_to_float_type
 right_iterate_type
 right_justify
 right_key_compare_type
@@ -1786,7 +1769,6 @@ shuffle
 shuffle_order_engine
 sigmoid_layer
 signal
-signed_integral
 simplex
 sin
 single
@@ -2039,7 +2021,6 @@ variable
 variant
 variate_generator
 vector
-vector_int_to_float_type
 vector_iterate_type
 vector_type
 vector_value_type
