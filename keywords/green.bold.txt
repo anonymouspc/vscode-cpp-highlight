@@ -1,3 +1,11 @@
+iter_value
+iter_reference
+iter_common_reference
+iter_rvalue_reference
+iter_difference
+second_type_of
+second_value_of
+distance
 char_type
 int_type
 unsigned_int_type
