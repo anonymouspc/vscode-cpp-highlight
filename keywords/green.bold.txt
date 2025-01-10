@@ -1,3 +1,8 @@
+execpools
+opencl_thread_pool
+attribute_type
+function_type
+iterate_type
 iter_value
 iter_reference
 iter_common_reference
@@ -57,7 +62,6 @@ modulable_to
 modulus_result
 bit_not
 random_context
-random_context_t
 hardware_concurrency
 available_parallelism
 forward_progress_guarantee
@@ -68,7 +72,6 @@ operation_state
 device_error
 pool_type
 operation
-execution_context_t
 cpu
 tbb
 cuda
@@ -980,8 +983,6 @@ front_insert_iterator
 front_item
 fstream
 full
-func
-func_type
 function
 gamma_distribution
 gauss
@@ -1177,7 +1178,6 @@ is_title
 is_trivial
 is_union
 is_upper
-is_view
 is_void
 is_volatile
 isfinite
