@@ -7,6 +7,16 @@ __kernel
 __global
 __constant
 
+assume
+deprecated
+fallthrough
+likely
+unlikely
+maybe_unused
+nodiscard
+noreturn
+no_unique_address
+
 abstract
 alignas
 alignof
