@@ -1,5 +1,6 @@
 execpools
 opencl_thread_pool
+compare_result
 attribute_type
 derive_of_self
 const_derive_of_self
@@ -29,7 +30,7 @@ emplace_front
 flat
 function_type
 attribute
-independent
+ownership
 iter_value
 iter_reference
 iter_common_reference
@@ -78,7 +79,6 @@ nothrow_swappable
 nothrow_convertible_to
 nothrow_assignable_from
 nothrow_swappable_with
-get_command_queue
 shrink_to_fit
 discard
 plusable
