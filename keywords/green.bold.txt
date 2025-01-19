@@ -4,6 +4,16 @@ compare_result
 attribute_type
 derive_of_self
 const_derive_of_self
+range_value
+range_reference
+range_rvalue_reference
+range_difference
+iter_const_reference
+range_const_reference
+range_iterator
+range_const_iterator
+range_sentinel
+range_const_sentinel
 skip
 hash2
 device2
@@ -145,8 +155,6 @@ pipe_process
 string_view_type
 clang
 forward_range
-range_reference_t
-range_value_t
 all_t
 single_view
 common_range
