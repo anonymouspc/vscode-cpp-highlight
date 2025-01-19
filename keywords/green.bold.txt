@@ -1,9 +1,11 @@
 execpools
-opencl_thread_pool
 compare_result
 attribute_type
 derive_of_self
 const_derive_of_self
+get_command_queue
+opencl_stream_context
+contiguous
 range_value
 range_reference
 range_rvalue_reference
@@ -161,7 +163,6 @@ common_range
 bidirectional_range
 viewable_range
 input_types
-iterator_t
 join_with_view
 execution_context
 io_context
@@ -1757,7 +1758,6 @@ semaphore
 send
 sender
 sentinel
-sentinel_t
 seq
 sequence_model
 server
