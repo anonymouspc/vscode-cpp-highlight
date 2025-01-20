@@ -5,6 +5,7 @@ derive_of_self
 const_derive_of_self
 get_command_queue
 opencl_stream_context
+layout_compatible_with
 contiguous
 range_value
 range_reference
