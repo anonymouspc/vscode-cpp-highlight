@@ -7,6 +7,11 @@ get_command_queue
 opencl_stream_context
 layout_compatible_with
 offset
+top_size
+array_iterator
+array_const_iterator
+array_info
+max_dim
 contiguous
 range_value
 range_reference
@@ -657,7 +662,6 @@ cerr
 channel
 char_traits
 check
-checked_array_iterator
 checked_uninitialized_copy
 checked_uninitialized_fill_n
 chi_squared_distribution
@@ -1892,10 +1896,6 @@ tbb_thread_pool
 tcp_buf
 tcp_interface
 tcp_stream
-template_int_axis
-template_one_axis
-template_zero_axis
-templates
 tensor
 terminate
 terminate_signal
