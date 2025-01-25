@@ -8,6 +8,11 @@ opencl_stream_context
 layout_compatible_with
 offset
 top_size
+rows
+columns
+attr
+tuple_upper
+index2
 array_iterator
 array_const_iterator
 array_info
