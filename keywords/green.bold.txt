@@ -8,6 +8,9 @@ opencl_stream_context
 layout_compatible_with
 offset
 top_size
+axis_size
+array_attribute
+accessor_type
 rows
 columns
 attr
@@ -1940,7 +1943,6 @@ traits_type
 transform
 transform_reduce
 translate
-transpose
 tree
 trivial
 true_type
