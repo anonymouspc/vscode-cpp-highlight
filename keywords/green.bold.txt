@@ -5,6 +5,13 @@ derive_of_self
 const_derive_of_self
 execution_context_type
 layout_compatible_with
+string_error
+io_error
+sql_error
+cuda_error
+opencl_error
+tbb_error
+linalg_error
 offset
 top_size
 axis_size
@@ -1471,7 +1478,6 @@ ntt
 nullary_function
 nullopt
 nullopt_t
-nullptr_error
 nullptr_t
 num
 num1
