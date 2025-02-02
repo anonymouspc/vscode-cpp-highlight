@@ -1,4 +1,6 @@
 execpools
+stride_pointer
+const_stride_pointer
 compare_result
 attribute_type
 derive_of_self
@@ -27,8 +29,8 @@ device_ptr
 buffer
 attr
 index2
-array_iterator
-array_const_iterator
+array_line_iterator
+array_line_const_iterator
 array_info
 max_dim
 ownership
@@ -66,7 +68,6 @@ array_upper
 array_lower
 traits
 emplace_front
-flat
 function_type
 iter_value
 iter_reference
@@ -153,9 +154,9 @@ alloc
 const_pointer
 device
 thrust
-as_flat
-as_shape
-as_transpose
+flatten
+reshape
+transpose
 exclusive_scan
 inclusive_scan
 find_last
@@ -743,7 +744,6 @@ confidence
 conj
 connect
 const_iterator
-const_iterator_base
 const_mem_fun1_ref_t
 const_mem_fun1_t
 const_mem_fun_ref_t
@@ -1142,7 +1142,6 @@ initializer_list
 inner_product
 inplace_array
 inplace_merge
-inplace_shape
 inplace_vector
 input
 input_iterator
@@ -1239,7 +1238,6 @@ istream_view
 istreambuf_iterator
 iter_swap
 iterator
-iterator_base
 iterator_category
 iterator_concept
 iterator_traits
@@ -1855,7 +1853,6 @@ state_type
 static_array
 static_obj
 static_pointer_cast
-static_shape
 static_thread_pool
 static_vector
 std
