@@ -31,6 +31,7 @@ attr
 index2
 array_line_iterator
 array_line_const_iterator
+invocable_r
 array_info
 max_dim
 ownership
@@ -890,7 +891,6 @@ duration
 duration_cast
 dynamic_obj
 dynamic_pointer_cast
-each
 edit
 eigen
 eigen_value
