@@ -3,8 +3,6 @@ stride_pointer
 const_stride_pointer
 compare_result
 attribute_type
-derive_of_self
-const_derive_of_self
 execution_context_type
 layout_compatible_with
 string_error
@@ -837,7 +835,6 @@ decompose
 default_buffer_size
 default_delete
 default_initializable
-default_mode
 default_random_engine
 default_seed
 default_sentinel
@@ -944,7 +941,6 @@ exp
 exp2
 expand_tabs
 expectation
-explicit_mode
 exponential_distribution
 expr
 extent
@@ -1124,7 +1120,6 @@ ifft
 ifstream
 illegal_instruction_signal
 imag
-implicit_mode
 includes
 independent_bits_engine
 index
@@ -1175,13 +1170,11 @@ is_alnum
 is_alpha
 is_arithmetic
 is_array
-is_ascii
 is_bind_expression
 is_class
 is_compound
 is_const
 is_constant_evaluated
-is_decimal
 is_digit
 is_directory
 is_enum
@@ -1194,7 +1187,6 @@ is_function
 is_fundamental
 is_heap
 is_heap_until
-is_identifier
 is_leaf
 is_left
 is_literal_type
@@ -1225,7 +1217,6 @@ is_sorted_until
 is_space
 is_standard_layout
 is_symmetric
-is_title
 is_trivial
 is_union
 is_upper
@@ -1283,8 +1274,6 @@ left_strip
 left_type
 left_value_type
 leftmost
-len
-len2
 length_error
 less
 less2
