@@ -5,6 +5,13 @@ compare_result
 attribute_type
 execution_context_type
 layout_compatible_with
+inf
+is_ascii
+is_punct
+is_blank
+is_cntrl
+is_title
+len
 string_error
 io_error
 sql_error
@@ -179,7 +186,6 @@ layout_right
 layout_stride
 default_accessor
 pipe_process
-string_view_type
 clang
 forward_range
 all_t
@@ -2098,5 +2104,4 @@ year
 yellow
 yield
 yield_value
-zero_fill
 zeros_initialize
