@@ -5,8 +5,15 @@ compare_result
 attribute_type
 execution_context_type
 layout_compatible_with
-device_tag
-nativize
+contiguous
+const_accessor_type
+layout_transpose
+linalg
+data_handle
+left_layout_type
+right_layout_type
+is_layout_stride
+is_layout_transpose
 int_tag
 unsigned_int_tag
 float_tag
@@ -46,7 +53,6 @@ invocable_r
 array_info
 max_dim
 ownership
-contiguous
 range_value
 range_reference
 range_rvalue_reference
