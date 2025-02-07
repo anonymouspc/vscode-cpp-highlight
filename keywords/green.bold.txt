@@ -10,10 +10,9 @@ const_accessor_type
 layout_transpose
 linalg
 data_handle
-left_layout_type
-right_layout_type
-is_layout_stride
-is_layout_transpose
+element_type
+extents_type
+mdspan_type
 int_tag
 unsigned_int_tag
 float_tag
