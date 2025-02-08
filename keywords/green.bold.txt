@@ -6,6 +6,10 @@ attribute_type
 execution_context_type
 layout_compatible_with
 contiguous
+cbrt
+unary_plus
+unary_minus
+host
 const_accessor_type
 layout_transpose
 linalg
