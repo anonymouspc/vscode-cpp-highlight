@@ -5,6 +5,12 @@ compare_result
 attribute_type
 execution_context_type
 layout_compatible_with
+plus_equal
+minus_equal
+mapping
+right_scale_equal
+multiply_equal
+divide_equal
 contiguous
 left_value_type
 left_extents_type
