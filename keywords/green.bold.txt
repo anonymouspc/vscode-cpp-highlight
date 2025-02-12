@@ -11,6 +11,7 @@ mapping
 right_scale_equal
 multiply_equal
 divide_equal
+len2
 contiguous
 left_value_type
 left_extents_type
