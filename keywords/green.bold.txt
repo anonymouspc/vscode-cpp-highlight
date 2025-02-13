@@ -13,7 +13,11 @@ multiply_equal
 divide_equal
 len2
 vector_dimension
+vector_device_type
 matrix_dimension
+matrix_device_type
+ndarray_dimension
+ndarray_device_type
 contiguous
 left_value_type
 left_extents_type
