@@ -1,10 +1,50 @@
+wait_process
+suspend_process
+resume_process
+interrupt_process
+exit_process
+terminate_process
 execpools
 stride_pointer
+random_context_type
 const_stride_pointer
 compare_result
 attribute_type
 execution_context_type
 layout_compatible_with
+request_param
+response_version
+sql_stream
+sql_mode
+sql_mode_tag
+sql_error_with_diagnostics
+csv_lazy_split
+csv_lazy_split_view
+encode_base64_view
+encode_base64
+content
+cc
+bcc
+attachment
+email_send
+email_mode
+email_mode_tag
+username
+password
+all_attempts_failed
+ip
+tcp
+udp
+icmp
+ssl
+acceptor
+endpoint
+resolver
+socket
+connection_oriented
+ssl_stream
+accept
+shutdown
 plus_equal
 minus_equal
 mapping
@@ -239,8 +279,7 @@ input_types
 join_with_view
 execution_context
 io_context
-ssl_client_context
-ssl_server_context
+ssl_context
 
 
 ASCII
@@ -745,7 +784,6 @@ cin
 clamp
 clear
 client
-client_mode_type
 clock_type
 clog
 close
@@ -1154,9 +1192,6 @@ http_stream
 huffman
 huffman_tree
 hypot
-icmp_buf
-icmp_interface
-icmp_ping
 icmp_stream
 id
 id3_chunk
@@ -1436,7 +1471,6 @@ mismatch
 mod
 mode
 mode_base
-mode_type
 model_tag
 model_type
 modulus
@@ -1525,7 +1559,6 @@ ofstream
 ones_initialize
 onetstream
 open
-open_type
 openmode
 optimizer_tag
 optimizer_type
@@ -1581,7 +1614,6 @@ piecewise_constant_distribution
 piecewise_linear_distribution
 ping
 pipe_buf
-pipe_command
 pipe_error
 pipe_interface
 pipe_mode
@@ -1738,7 +1770,6 @@ requires_one_dim
 reserve
 reset
 resize
-resolve_type
 response_header
 response_reason
 response_status_code
@@ -1811,7 +1842,6 @@ sentinel
 seq
 sequence_model
 server
-server_mode_type
 set
 set_depth
 set_difference
@@ -1936,8 +1966,6 @@ take_while
 tan
 tbb
 tbb_thread_pool
-tcp_buf
-tcp_interface
 tcp_stream
 tensor
 terminate
@@ -2023,8 +2051,6 @@ u32string
 u32string_view
 u8string
 u8string_view
-udp_buf
-udp_interface
 udp_stream
 unary_function
 unary_negate
