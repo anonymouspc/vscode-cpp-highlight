@@ -4,6 +4,13 @@ resume_process
 interrupt_process
 exit_process
 terminate_process
+basic_http_stream
+https_stream
+basic_http_buf
+resolve
+max_buffer_size
+read_some
+write_some
 execpools
 stride_pointer
 random_context_type
@@ -1179,13 +1186,11 @@ height
 hermitian
 hour
 householder
-http_buf
 http_client_mode
 http_client_mode_tag
 http_get
 http_interface
 http_post
-http_server
 http_server_mode
 http_server_mode_tag
 http_stream
