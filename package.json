@@ -1,12 +1,15 @@
 {
-	"name": "cpp_highlight",
-	"displayName": "C++ Highlight",
-	"description": "C++ Highlight",
+	"name": "vscode-cpp-highlight",
+	"displayName": "vscode-cpp-highlight",
+	"description": "vscode-cpp-highlight",
 	"version": "1.0.0",
-	"publisher": "anonymous",
+	"publisher": "anonymouspc",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
 	"contributes": {
 		"languages": [
 			{
@@ -36,7 +39,12 @@
 		]
 	},
 	"main": "./extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AnonymoucPC/vscode_cpp_highliht"
+	},
 	"__metadata": {
-		"size": 378069
+		"size": 65026,
+		"installedTimestamp": 1741970193720
 	}
 }
