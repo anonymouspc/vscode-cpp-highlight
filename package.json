@@ -42,9 +42,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/AnonymoucPC/vscode_cpp_highliht"
-	},
-	"__metadata": {
-		"size": 65026,
-		"installedTimestamp": 1741970193720
 	}
 }
