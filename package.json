@@ -1,7 +1,7 @@
 {
 	"name": "vscode-cpp-highlight",
-	"displayName": "vscode-cpp-highlight",
-	"description": "vscode-cpp-highlight",
+	"displayName": "C++ Highlight",
+	"description": "C++ Highlight",
 	"version": "1.0.0",
 	"publisher": "anonymouspc",
 	"engines": {
