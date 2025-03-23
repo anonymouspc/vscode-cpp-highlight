@@ -8,6 +8,10 @@ channel_type
 receiver_concept
 receiver_t
 read_env
+get_forward_progress_guarantee
+get_forward_progress_guarantee_t
+get_scheduler_t
+get_stop_token_t
 
 ASCII
 AdobeStandardEncoding
