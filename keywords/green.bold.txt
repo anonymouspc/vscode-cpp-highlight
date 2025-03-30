@@ -12,6 +12,12 @@ get_forward_progress_guarantee
 get_forward_progress_guarantee_t
 get_scheduler_t
 get_stop_token_t
+connect_result_t
+asioexec
+use_nothrow_sender
+use_nothrow_sender_t
+email
+mysql
 
 ASCII
 AdobeStandardEncoding
@@ -1133,7 +1139,6 @@ invocable_r
 invoke_result
 io_context
 io_error
-ioexec
 ios
 ios_base
 iostate
