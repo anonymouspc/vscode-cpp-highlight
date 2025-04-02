@@ -19,6 +19,7 @@ use_nothrow_sender_t
 email
 mysql
 file_dll
+print_t
 
 ASCII
 AdobeStandardEncoding
