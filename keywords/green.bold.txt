@@ -20,6 +20,7 @@ email
 mysql
 file_dll
 print_t
+class_type
 
 ASCII
 AdobeStandardEncoding
@@ -551,10 +552,6 @@ chunk
 chunk_by
 chunk_header
 chunk_ptr
-chunked_binary_istream
-chunked_binary_istream_view
-chunked_binary_ostream
-chunked_binary_ostream_view
 cin
 clamp
 clang
@@ -1985,7 +1982,6 @@ stoppable_token
 stopped_as_error
 stopped_as_optional
 strassen
-stream_type
 streambuf
 streamsize
 strict
