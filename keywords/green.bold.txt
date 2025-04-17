@@ -21,6 +21,14 @@ mysql
 file_dll
 print_t
 class_type
+stdexec
+Eigen
+clblast
+debug
+input_t
+size_t
+offset_policy
+data_handle_type
 
 ASCII
 AdobeStandardEncoding
