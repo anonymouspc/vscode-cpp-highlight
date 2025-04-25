@@ -48,6 +48,13 @@ lru_map
 vertex
 edge
 direction
+text_error
+output_range
+hashable
+
+gagaga
+hahaha
+tatata
 
 ASCII
 AdobeStandardEncoding
@@ -487,7 +494,6 @@ basic_socket_stream
 basic_stacktrace
 basic_streambuf
 basic_string
-basic_string_view
 basic_stringstream
 batch
 batch_bce_loss
@@ -588,15 +594,7 @@ clog
 close
 co_result
 cobalt
-code
 code_mode
-codecvt
-codecvt_base
-codecvt_byname
-codecvt_mode
-codecvt_utf16
-codecvt_utf8
-codecvt_utf8_utf16
 collate
 collate_byname
 collection
@@ -776,7 +774,6 @@ degree
 degree_tag
 degree_type
 delete_self
-demangle
 den
 depth
 deque
@@ -1079,7 +1076,6 @@ has_unique_object_representations
 has_up
 has_virtual_destructor
 hash
-hash2
 hash_map
 hash_set
 hash_table
@@ -1304,7 +1300,6 @@ len
 len2
 length_error
 less
-less2
 less_equal
 less_types
 let_error
@@ -1368,10 +1363,6 @@ match_results
 math_error
 math_type
 matrix
-matrix_device_type
-matrix_dimension
-matrix_type
-matrix_value_type
 max
 max_dim
 max_element
@@ -1475,10 +1466,6 @@ nanosecond
 native
 native_handle
 ndarray
-ndarray_device_type
-ndarray_dimension
-ndarray_type
-ndarray_value_type
 negate
 negative_binomial_distribution
 nesterov
@@ -1963,11 +1950,8 @@ stride
 stride_pointer
 string
 string_algo
-string_error
 string_tag
 string_type
-string_type2
-string_view
 stringstream
 strip
 strlen
@@ -2102,11 +2086,8 @@ types4
 types5
 types6
 u16string
-u16string_view
 u32string
-u32string_view
 u8string
-u8string_view
 udp
 udp_stream
 unary_function
@@ -2177,13 +2158,8 @@ variable
 variant
 variate_generator
 vector
-vector_device_type
-vector_dimension
-vector_type
-vector_value_type
 version
 vformat
-view
 view_by_axis
 view_interface
 viewable_range
@@ -2230,7 +2206,6 @@ write_lock
 write_only
 write_some
 wstring
-wstring_view
 xavier_normal_initialize
 xavier_uniform_initialize
 xor_combine

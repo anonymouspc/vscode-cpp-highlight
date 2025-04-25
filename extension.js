@@ -1,14 +1,22 @@
-const vscode = require('vscode');
 const fs = require('fs');
-const path = require('path');
+extensionPath = "";
 
 function activate(context) {
+    extensionPath = context.extensionPath;
+    update();
+}
+
+function deactivate() {
+    update();
+}
+
+function update() {
     let colors = ["yellow", "green.bold", "blue.bold"];
 
     for (let color of colors) {
         // Set file path.
-        const keywordsPath = path.join(context.extensionPath, 'keywords', `${color}.txt`);
-        const syntaxPath   = path.join(context.extensionPath, 'syntaxes', 'cpp.tmLanguage.json');
+        const keywordsPath = `${extensionPath}/keywords/${color}.txt`;
+        const syntaxPath   = `${extensionPath}/syntaxes/cpp.tmLanguage.json`;
 
         // Read keywords file.
         let data          = fs.readFileSync(keywordsPath, 'utf8');
@@ -28,8 +36,6 @@ function activate(context) {
         fs.writeFileSync(syntaxPath, JSON.stringify(syntax, null, 2));
     }
 }
-
-function deactivate() {}
 
 module.exports = {
     activate,
