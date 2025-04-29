@@ -51,10 +51,37 @@ direction
 text_error
 output_range
 hashable
+nothrow_default_initializable
+trivially_default_initializable
+constructible_from
+nothrow_constructible_from
+trivially_destructible
+result_type1
+result_types
+error_reference
+const_error_reference
+array_attribute
 
-gagaga
-hahaha
-tatata
+left_type
+left_key_type
+left_value_type
+left_layout_type
+left_accessor_type
+right_type
+right_key_type
+right_value_type
+right_layout_tyoe
+right_accessor_type
+output_type
+output_key_type
+output_value_type
+output_layout_type
+output_accessor_type
+mdspan_type
+mdspan_key_type
+mdspan_value_type
+mdspan_layout_type
+mdspan_accessor_type
 
 ASCII
 AdobeStandardEncoding
@@ -357,7 +384,6 @@ allocator_type
 allocator_unbounded
 allocator_variable_size
 alpha
-angle_tag
 angle_type
 anonymous
 another
@@ -380,7 +406,7 @@ array_info
 array_line_const_iterator
 array_line_iterator
 array_lower
-array_tag
+array_concept
 array_type
 array_upper
 artist
@@ -513,7 +539,6 @@ bidirectional_range
 bidirectional_range
 big
 bimap
-bimap_tag
 bimap_type
 binary_cross_entropy_loss
 binary_function
@@ -630,7 +655,7 @@ compare_weak_order_fallback
 compares
 completion_signatures
 complex
-complex_tag
+complex_concept
 complex_type
 compose
 composer
@@ -662,7 +687,7 @@ constant
 constants
 constexpr_index
 construct_at
-constructible_from
+constructible_to
 container
 container1
 container2
@@ -771,7 +796,6 @@ default_sentinel
 default_sentinel_t
 deferred_task
 degree
-degree_tag
 degree_type
 delete_self
 den
@@ -978,7 +1002,7 @@ flat_set
 flatten
 float_denorm_style
 float_round_style
-float_tag
+float_concept
 float_type
 floating_point_engine
 floating_point_exception_signal
@@ -1122,7 +1146,6 @@ info_header
 initial_suspend
 initializer_list
 inner_product
-inplace_array
 inplace_merge
 inplace_stop_callback
 inplace_stop_source
@@ -1139,7 +1162,7 @@ input_value_type
 inputable
 insert
 insert_iterator
-int_tag
+int_concept
 int_type
 integer_sequence
 integral_constant
@@ -1279,7 +1302,7 @@ last_type
 last_type_of
 last_value_of
 launch
-layer_tag
+layer_concept
 layer_type
 layout_compatible_with
 layout_left
@@ -1336,7 +1359,7 @@ logical_and
 logical_not
 logical_or
 lognormal_distribution
-loss_tag
+loss_concept
 loss_type
 lower
 lower_bound
@@ -1355,7 +1378,7 @@ make_unsigned
 map
 map_compare
 map_pair
-map_tag
+map_concept
 map_type
 mapping
 match
@@ -1417,7 +1440,7 @@ mismatch
 mod
 mode
 mode_base
-model_tag
+model_concept
 model_type
 modulable
 modulable_to
@@ -1486,7 +1509,7 @@ not2
 not_equal_to
 nothrow
 nothrow_assignable_from
-nothrow_constructible_from
+nothrow_constructible_to
 nothrow_convertible_to
 nothrow_copyable
 nothrow_destructible
@@ -1511,7 +1534,7 @@ num2
 num_get
 num_put
 number
-number_tag
+number_concept
 number_type
 numbers
 numeric_expr
@@ -1530,7 +1553,7 @@ opencl_queue_context
 openmode
 operation
 operation_state
-optimizer_tag
+optimizer_concept
 optimizer_type
 optional
 options
@@ -1556,7 +1579,7 @@ owner_less
 ownership
 packet_header
 pair
-pair_tag
+pair_concept
 pair_tmp
 pair_type
 par
@@ -1648,7 +1671,6 @@ query
 query_type
 queue
 radian
-radian_tag
 radian_type
 randchar
 randfloat
@@ -1852,7 +1874,7 @@ set_new_handler
 set_stopped
 set_stopped_t
 set_symmetric_difference
-set_tag
+set_concept
 set_type
 set_union
 set_value
@@ -1923,10 +1945,7 @@ start_directory
 starts_on
 starts_with
 state_type
-static_array
 static_extent
-static_obj
-static_pointer_cast
 static_thread_pool
 static_vector
 std
@@ -1950,7 +1969,7 @@ stride
 stride_pointer
 string
 string_algo
-string_tag
+string_concept
 string_type
 stringstream
 strip
@@ -2063,7 +2082,7 @@ try_rename_file
 tuple
 tuple_element
 tuple_size
-tuple_tag
+tuple_concept
 tuple_type
 tuple_upper
 type
@@ -2144,7 +2163,6 @@ value
 value_compare
 value_compare_type
 value_error
-value_index
 value_less
 value_pointer
 value_range
