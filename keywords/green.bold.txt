@@ -12,20 +12,21 @@ get_forward_progress_guarantee
 get_forward_progress_guarantee_t
 get_scheduler_t
 get_stop_token_t
+openmp
 connect_result_t
+const_array_line_iterator
 asioexec
 use_nothrow_sender
 use_nothrow_sender_t
 email
 mysql
 file_dll
-print_t
 class_type
 stdexec
+sentinel_for
 Eigen
 clblast
 debug
-input_t
 size_t
 offset_policy
 data_handle_type
@@ -34,7 +35,6 @@ for_constexpr
 all_of_constexpr
 any_of_constexpr
 none_of_constexpr
-accumulate_constexpr
 int_types
 plf
 has_value
@@ -61,6 +61,20 @@ result_types
 error_reference
 const_error_reference
 array_attribute
+array_shape
+array_uppers
+rows_attribute
+columns_attribute
+transpose_attribute
+left_device_type
+right_device_type
+allocator_traits
+rebind_alloc
+iterator_value_type
+iterator_reference
+iterator_pointer
+iterator_difference_type
+range_concept
 
 left_type
 left_key_type
@@ -82,6 +96,8 @@ mdspan_key_type
 mdspan_value_type
 mdspan_layout_type
 mdspan_accessor_type
+counted_iterator
+stride_iterator
 
 ASCII
 AdobeStandardEncoding
@@ -403,7 +419,6 @@ argument_type
 array
 array_algo
 array_info
-array_line_const_iterator
 array_line_iterator
 array_lower
 array_concept
@@ -680,7 +695,6 @@ const_pointer
 const_pointer_cast
 const_reference
 const_reverse_iterator
-const_stride_pointer
 const_value_pointer
 const_value_reference
 constant
@@ -813,7 +827,6 @@ detail
 device
 device2
 device_error
-device_ptr
 device_type
 dextents
 difference_type
@@ -1262,13 +1275,7 @@ istream
 istream_iterator
 istream_view
 istreambuf_iterator
-iter_common_reference
-iter_const_reference
-iter_difference
-iter_reference
-iter_rvalue_reference
 iter_swap
-iter_value
 iterator
 iterator_category
 iterator_concept
@@ -1688,12 +1695,12 @@ range_adaptor_closure
 range_const_iterator
 range_const_reference
 range_const_sentinel
-range_difference
+range_difference_type
 range_iterator
 range_reference
 range_rvalue_reference
 range_sentinel
-range_value
+range_value_type
 range_view_of
 ranges
 rank
@@ -1966,7 +1973,6 @@ streambuf
 streamsize
 strict
 stride
-stride_pointer
 string
 string_algo
 string_concept
@@ -2084,7 +2090,6 @@ tuple_element
 tuple_size
 tuple_concept
 tuple_type
-tuple_upper
 type
 type1
 type2
