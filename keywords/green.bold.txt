@@ -6,15 +6,22 @@ operation_state_type
 shape_type
 channel_type
 receiver_concept
+borrowed_range
+structure
 receiver_t
+container_interface
 read_env
+integral
+pointer_traits
+floating_point
+numeric
+is_print
 get_forward_progress_guarantee
 get_forward_progress_guarantee_t
 get_scheduler_t
 get_stop_token_t
 openmp
 connect_result_t
-const_array_line_iterator
 asioexec
 use_nothrow_sender
 use_nothrow_sender_t
@@ -59,6 +66,7 @@ trivially_destructible
 result_type1
 result_types
 error_reference
+structure_interface
 const_error_reference
 array_attribute
 array_shape
@@ -70,11 +78,18 @@ left_device_type
 right_device_type
 allocator_traits
 rebind_alloc
+signed_integral
 iterator_value_type
 iterator_reference
 iterator_pointer
 iterator_difference_type
 range_concept
+map_keys
+map_values
+transform_to_array
+transform_to_pair
+transform_to_key
+transform_to_value
 
 left_type
 left_key_type
@@ -98,6 +113,7 @@ mdspan_layout_type
 mdspan_accessor_type
 counted_iterator
 stride_iterator
+transform_iterator
 
 ASCII
 AdobeStandardEncoding
@@ -400,7 +416,6 @@ allocator_type
 allocator_unbounded
 allocator_variable_size
 alpha
-angle_type
 anonymous
 another
 any
@@ -417,12 +432,8 @@ arg
 arg_types
 argument_type
 array
-array_algo
 array_info
-array_line_iterator
 array_lower
-array_concept
-array_type
 array_upper
 artist
 as_default_on
@@ -491,7 +502,6 @@ atomic_ushort
 atomic_wchar_t
 attachment
 attr
-attribute_type
 audio
 authorization
 auto_ptr
@@ -539,8 +549,6 @@ basic_stringstream
 batch
 batch_bce_loss
 batch_ce_loss
-batch_input_type
-batch_output_type
 bcc
 bce_loss
 beast
@@ -554,7 +562,6 @@ bidirectional_range
 bidirectional_range
 big
 bimap
-bimap_type
 binary_cross_entropy_loss
 binary_function
 binary_istream
@@ -582,10 +589,7 @@ bit_xor
 bitset
 black
 blue
-bool_type
 boost
-braced_type
-buff_type
 buffer
 buffer_iterator
 buffer_value
@@ -598,7 +602,6 @@ c_str
 cache_chunklist
 cache_freelist
 cache_suballoc
-cache_type
 capacity
 capitalize
 cauchy_distribution
@@ -607,13 +610,11 @@ cbrt
 cc
 ce_loss
 ceil
-cell_type
 cend
 center
 cerr
 channel
 char_traits
-char_type
 check
 checked_uninitialized_copy
 checked_uninitialized_fill_n
@@ -629,7 +630,6 @@ clamp
 clang
 clear
 client
-clock_type
 clog
 close
 co_result
@@ -638,9 +638,7 @@ code_mode
 collate
 collate_byname
 collection
-collection_algo
 collection_keys_view
-collection_type
 collection_values_view
 color
 column
@@ -670,7 +668,6 @@ compare_weak_order_fallback
 compares
 completion_signatures
 complex
-complex_concept
 complex_type
 compose
 composer
@@ -810,7 +807,6 @@ default_sentinel
 default_sentinel_t
 deferred_task
 degree
-degree_type
 delete_self
 den
 depth
@@ -860,7 +856,6 @@ drop
 drop_while
 duration
 duration_cast
-duration_type
 dynamic_obj
 dynamic_pointer_cast
 edit
@@ -889,7 +884,6 @@ encode_error
 encode_gzip
 encode_gzip_t
 encode_gzip_view
-encode_type
 encode_zlib
 encode_zlib_t
 encode_zlib_view
@@ -899,7 +893,6 @@ endian
 endl
 endpoint
 ends_with
-engine_type
 enqueue
 enter
 enumerate
@@ -1015,8 +1008,6 @@ flat_set
 flatten
 float_denorm_style
 float_round_style
-float_concept
-float_type
 floating_point_engine
 floating_point_exception_signal
 floor
@@ -1172,11 +1163,8 @@ input_range
 input_type
 input_types
 input_value_type
-inputable
 insert
 insert_iterator
-int_concept
-int_type
 integer_sequence
 integral_constant
 interrupt_process
@@ -1300,8 +1288,6 @@ key_reference
 key_type
 keys
 keys_view
-keyword_type
-keyword_types
 knuth_b
 kurtosis
 lambda_function
@@ -1309,7 +1295,6 @@ last_type
 last_type_of
 last_value_of
 launch
-layer_concept
 layer_type
 layout_compatible_with
 layout_left
@@ -1366,7 +1351,6 @@ logical_and
 logical_not
 logical_or
 lognormal_distribution
-loss_concept
 loss_type
 lower
 lower_bound
@@ -1385,13 +1369,10 @@ make_unsigned
 map
 map_compare
 map_pair
-map_concept
-map_type
 mapping
 match
 match_results
 math_error
-math_type
 matrix
 max
 max_dim
@@ -1406,7 +1387,6 @@ maximize
 maximum_likelihood_estimation
 mbstate_t
 mdspan
-mdspan_type
 mean_absolute_error_loss
 mean_squared_error_loss
 mem_fn
@@ -1447,7 +1427,6 @@ mismatch
 mod
 mode
 mode_base
-model_concept
 model_type
 modulable
 modulable_to
@@ -1541,8 +1520,6 @@ num2
 num_get
 num_put
 number
-number_concept
-number_type
 numbers
 numeric_expr
 numeric_limits
@@ -1560,7 +1537,6 @@ opencl_queue_context
 openmode
 operation
 operation_state
-optimizer_concept
 optimizer_type
 optional
 options
@@ -1586,9 +1562,7 @@ owner_less
 ownership
 packet_header
 pair
-pair_concept
 pair_tmp
-pair_type
 par
 par_unseq
 param
@@ -1606,7 +1580,6 @@ partition_copy
 partition_point
 password
 path
-path_type
 pattern
 piecewise_constant_distribution
 piecewise_linear_distribution
@@ -1618,7 +1591,6 @@ pipe_mode
 pipe_mode_tag
 pipe_process
 pipe_stream
-pipe_type
 plus
 plus_equal
 plus_result
@@ -1645,11 +1617,10 @@ pow
 precision
 precision_type
 pred_view
-predicate
+predicate_for
 prev
 prev_permutation
 print
-printable
 println
 priority_queue
 process
@@ -1721,7 +1692,6 @@ ratio_add
 ratio_divide
 ratio_multiply
 ratio_subtract
-ratio_type
 raw_storage_iterator
 rb_tree
 rb_tree_node
@@ -1749,7 +1719,7 @@ regex_error
 regex_iterator
 regex_token_iterator
 regex_traits
-relation
+relation_between
 relative_path
 release
 relu_layer
@@ -1814,13 +1784,9 @@ reverse_copy
 reverse_iterator
 riff_chunk
 right
-right_adjacent_find
-right_find
 right_justify
-right_partition
 right_scale
 right_scale_equal
-right_split
 right_strip
 rightmost
 rmsprop
@@ -1851,8 +1817,6 @@ search
 search_n
 sec
 second
-second_type_of
-second_value_of
 seed
 seed_seq
 seekdir
@@ -1881,8 +1845,6 @@ set_new_handler
 set_stopped
 set_stopped_t
 set_symmetric_difference
-set_concept
-set_type
 set_union
 set_value
 set_value_t
@@ -1935,7 +1897,6 @@ span
 sparse_initialize
 spirit
 split
-split_lines
 sqrt
 ssl
 ssl_context
@@ -1974,9 +1935,7 @@ streamsize
 strict
 stride
 string
-string_algo
-string_concept
-string_type
+string_interface
 stringstream
 strip
 strlen
@@ -2049,7 +2008,6 @@ tls
 tls_context
 tls_stream
 to
-to_array
 to_chars
 to_range
 today
@@ -2088,7 +2046,6 @@ try_rename_file
 tuple
 tuple_element
 tuple_size
-tuple_concept
 tuple_type
 type
 type1
@@ -2148,8 +2105,6 @@ unordered_multimap
 unordered_multiset
 unordered_set
 unseq
-unsigned_int_tag
-unsigned_int_type
 unstoppable_token
 up
 update

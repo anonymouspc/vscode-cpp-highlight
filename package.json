@@ -1,12 +1,13 @@
 {
 	"name": "vscode-cpp-highlight",
-	"displayName": "C++ Highlight",
-	"description": "C++ Highlight",
+	"displayName": "vscode-cpp-highlight",
+	"description": "vscode-cpp-highlight",
 	"version": "1.0.0",
 	"publisher": "anonymouspc",
 	"engines": {
 		"vscode": "^1.60.0"
 	},
+	"main": "./extension.js",
 	"activationEvents": [
 		"onStartupFinished"
 	],
@@ -14,17 +15,13 @@
 		"languages": [
 			{
 				"id": "cpp",
-				"aliases": [
-					"C++",
-					"cpp"
-				],
 				"extensions": [
 					".cpp",
 					".hpp",
 					".ipp",
 					".cxx",
 					".hxx",
-					"ixx",
+					".ixx",
 					".h"
 				],
 				"configuration": "./language-configuration.json"
@@ -38,9 +35,8 @@
 			}
 		]
 	},
-	"main": "./extension.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AnonymoucPC/vscode_cpp_highliht"
+		"url": "https://github.com/AnonymoucPC/vscode-cpp-highlight"
 	}
 }
