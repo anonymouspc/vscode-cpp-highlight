@@ -22,7 +22,8 @@
 					".cxx",
 					".hxx",
 					".ixx",
-					".h"
+					".h",
+                    ".cu"
 				],
 				"configuration": "./language-configuration.json"
 			}

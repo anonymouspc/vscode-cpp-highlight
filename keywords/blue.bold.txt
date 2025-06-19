@@ -58,6 +58,7 @@ float128_t
 float16_t
 float32_t
 float64_t
+floatmax_t
 for
 friend
 goto
@@ -78,7 +79,6 @@ int_least16_t
 int_least32_t
 int_least64_t
 int_least8_t
-interface
 intmax_t
 intptr_t
 long
@@ -89,11 +89,13 @@ new
 noexcept
 not
 nullptr
+nullptr_t
 operator
 or
 override
 private
 protected
+ptrdiff_t
 public
 register
 reinterpret_cast
@@ -102,6 +104,7 @@ self
 short
 signed
 sizeof
+size_t
 static
 static_cast
 struct
