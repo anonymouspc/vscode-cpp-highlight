@@ -62,7 +62,7 @@
       "name": "cpp_highlight.purple"
     },
     {
-      "match": "^(\\s)*#([^/]|/[^/\\*])*",
+      "match": "^(\\s)*#([^/\"]|/[^/\\*\"]|\"[^\"]*\")*",
       "name": "cpp_highlight.purple"
     },
     {
