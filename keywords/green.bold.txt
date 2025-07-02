@@ -1,3 +1,12 @@
+cmake
+make
+autogen
+configure
+perl
+include
+src
+third_party
+build
 padding
 gcc
 msvc
@@ -7,6 +16,7 @@ zip
 jpeg
 png
 xz
+lz4
 tiff
 bzip2
 zlib
@@ -15,13 +25,6 @@ openssl
 hwloc
 icu
 exec
-autogen_file
-configure_file
-perl_file
-cmake_directory
-make_directory
-update_header
-update_library
 submdspan
 feature
 gil
