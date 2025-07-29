@@ -1,0 +1,14 @@
+{
+    "scopeName": "keyword.injection",
+    "injectionSelector": "source.cpp & -comment & -string",
+    "patterns": [
+        {
+            "match": "\\btemplate\\b",
+            "name": "storage.type.template.cpp"
+        },
+        {
+            "match": "\\btypename\\b",
+            "name": "storage.type.template.cpp"
+        }
+    ]
+}

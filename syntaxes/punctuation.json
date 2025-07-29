@@ -1,0 +1,38 @@
+{
+    "scopeName": "punctuation.injection",
+    "injectionSelector": "source.cpp & -comment & -string",
+    "patterns": [
+        {
+            "match": "\\(",
+            "name": "punctuation.section.parens.begin.cpp"
+        },
+        {
+            "match": "\\)",
+            "name": "punctuation.section.parens.end.cpp"
+        },
+        {
+            "match": "\\{",
+            "name": "punctuation.section.block.begin.cpp"
+        },
+        {
+            "match": "\\}",
+            "name": "punctuation.section.block.end.cpp"
+        },
+        {
+            "match": "<",
+            "name": "punctuation.section.angle-brackets.begin.cpp"
+        },
+        {
+            "match": ">",
+            "name": "punctuation.section.angle-brackets.end.cpp"
+        },
+        {
+            "match": "\\.\\.\\.",
+            "name": "punctuation.vararg-ellipses.template.definition.cpp"
+        },
+        {
+            "match": ":",
+            "name": "punctuation.separator.scope-resolution.cpp"
+        }
+    ]
+}

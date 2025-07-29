@@ -1,0 +1,39 @@
+{
+    "scopeName": "module.injection",
+    "injectionSelector": "L:source.cpp & -comment & -string",
+    "patterns": [
+        {
+            "match": "\\b(export\\s+module|module|import)\\s+([\\w\\.:]*)",
+            "captures": {
+                "1": {
+                    "patterns": [
+                        {
+                            "match": "export",
+                            "name": "keyword.other.export.cpp"
+                        },
+                        {
+                            "match": "import",
+                            "name": "keyword.other.import.cpp"
+                        },
+                        {
+                            "match": "module",
+                            "name": "keyword.other.module.cpp"
+                        }
+                    ]
+                },
+                "2": {
+                    "patterns": [
+                        {
+                            "match": "\\w+",
+                            "name": "entity.name.module.cpp"
+                        },
+                        {
+                            "match": "[\\.:]",
+                            "name": "punctuation.separator.module.cpp"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

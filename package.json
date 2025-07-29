@@ -7,33 +7,28 @@
 	"engines": {
 		"vscode": "^1.60.0"
 	},
-	"main": "./extension.js",
-	"activationEvents": [
-		"onStartupFinished"
-	],
 	"contributes": {
-		"languages": [
-			{
-				"id": "cpp",
-				"extensions": [
-					".cpp",
-					".hpp",
-					".ipp",
-					".cxx",
-					".hxx",
-					".ixx",
-					".h",
-                    ".cu"
-				],
-				"configuration": "./language-configuration.json"
-			}
-		],
 		"grammars": [
-			{
-				"language": "cpp",
-				"scopeName": "source.cpp",
-				"path": "./syntaxes/cpp.tmLanguage.json"
-			}
+            {
+                "path": "./syntaxes/keyword.json",
+                "scopeName": "keyword.injection",
+                "injectTo": ["source.cpp"]
+            },
+            {
+                "path": "./syntaxes/module.json",
+                "scopeName": "module.injection",
+                "injectTo": ["source.cpp"]
+            },
+            {
+                "path": "./syntaxes/preprocessor.json",
+                "scopeName": "preprocessor.injection",
+                "injectTo": ["source.cpp"]
+            },
+            {
+                "path": "./syntaxes/punctuation.json",
+                "scopeName": "punctuation.injection",
+                "injectTo": ["source.cpp"]
+            }
 		]
 	},
 	"repository": {

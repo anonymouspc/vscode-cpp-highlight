@@ -1,0 +1,15 @@
+{
+    "scopeName": "preprocessor.injection",
+    "injectionSelector": "L:source.cpp & -comment & -string",
+    "patterns": [
+        {
+            "begin": "^(\\s)*#.*\\\\$",
+            "end": "^[^\\\\]*$",
+            "name": "meta.preprocessor"
+        },
+        {
+            "match": "^(\\s)*#([^/]|/[^/\\*])*",
+            "name": "meta.preprocessor"
+        }
+    ]
+}
