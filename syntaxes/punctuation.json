@@ -11,6 +11,14 @@
             "name": "punctuation.section.parens.end.cpp"
         },
         {
+            "match": "\\[",
+            "name": "punctuation.section.square.begin.cpp"
+        },
+        {
+            "match": "\\]",
+            "name": "punctuation.section.square.end.cpp"
+        },
+        {
             "match": "\\{",
             "name": "punctuation.section.block.begin.cpp"
         },

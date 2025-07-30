@@ -3,12 +3,16 @@
     "injectionSelector": "source.cpp & -comment & -string",
     "patterns": [
         {
+            "match": "\\boperator\\b",
+            "name": "keyword.other.operator.cpp"
+        },
+        {
             "match": "\\btemplate\\b",
-            "name": "storage.type.template.cpp"
+            "name": "keyword.other.template.cpp"
         },
         {
             "match": "\\btypename\\b",
-            "name": "storage.type.template.cpp"
+            "name": "keyword.other.typename.cpp"
         }
     ]
 }
