@@ -1,6 +1,6 @@
 {
     "scopeName": "punctuation.injection",
-    "injectionSelector": "source.cpp & -comment & -string",
+    "injectionSelector": "L:source.cpp & -comment & -string",
     "patterns": [
         {
             "match": "\\(",
@@ -27,8 +27,8 @@
             "name": "punctuation.section.angle-brackets.end.cpp"
         },
         {
-            "match": "\\.\\.\\.",
-            "name": "punctuation.vararg-ellipses.template.definition.cpp"
+            "match": "\\.",
+            "name": "punctuation.separator.dot-access.cpp"
         },
         {
             "match": ":",
