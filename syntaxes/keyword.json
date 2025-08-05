@@ -1,6 +1,6 @@
 {
     "scopeName": "keyword.injection",
-    "injectionSelector": "source.cpp & -comment & -string",
+    "injectionSelector": "L:source.cpp & -comment & -string",
     "patterns": [
         {
             "match": "\\boperator\\b",
