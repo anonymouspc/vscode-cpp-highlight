@@ -41,6 +41,10 @@
         {
             "match": ":",
             "name": "punctuation.separator.scope-resolution.cpp"
+        },
+        {
+            "match": ",",
+            "name": "punctuation.separator.delimiter.comma.cpp"
         }
     ]
 }
