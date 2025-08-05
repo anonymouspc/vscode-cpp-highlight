@@ -10,11 +10,6 @@
 	"contributes": {
 		"grammars": [
             {
-                "path": "./syntaxes/keyword.json",
-                "scopeName": "keyword.injection",
-                "injectTo": ["source.cpp"]
-            },
-            {
                 "path": "./syntaxes/module.json",
                 "scopeName": "module.injection",
                 "injectTo": ["source.cpp"]
@@ -33,6 +28,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AnonymoucPC/vscode-cpp-highlight"
+		"url": "https://github.com/anonymouspc/vscode-cpp-highlight"
 	}
 }

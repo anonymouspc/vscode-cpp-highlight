@@ -1,6 +1,6 @@
 {
     "scopeName": "punctuation.injection",
-    "injectionSelector": "L:source.cpp & -comment & -string",
+    "injectionSelector": "source.cpp & -comment & -string",
     "patterns": [
         {
             "match": "\\(",
